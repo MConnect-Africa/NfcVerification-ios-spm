@@ -26,7 +26,7 @@ let package = Package(
                 .target(name: "NfcSdkBinary"),
                 .product(name: "NFCPassportReader", package: "NFCPassportReader")
             ],
-            path: "Sources/NfcSdk"
+            path: "Sources/NfcVerification"
         ),
         
         .binaryTarget(
