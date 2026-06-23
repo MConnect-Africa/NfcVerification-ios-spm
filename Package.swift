@@ -4,20 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "NfcVerification-spm",
+    name: "NfcSdk",
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "NfcVerification-spm",
-            targets: ["NfcVerification-spm"]
+            name: "NfcSdk",
+            targets: ["NfcSdk"]
         ),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "NfcVerification-spm"
-        ),
-
+        .binaryTarget(
+            name: "NfcSdk",
+            url: "https://github.com/MConnect-Africa/NfcVerification-ios-spm/releases/download/0.0.1/NfcSdk.xcframework.zip",
+            checksum: "00074c9699704181bfd18271602a37c7597e06401826d88394b6d9c67aa41d44"
+        )
     ]
 )
