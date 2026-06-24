@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "NfcSdkBinary",
-            url: "https://github.com/MConnect-Africa/NfcVerification-ios-spm/releases/download/v1.0.1/NfcSdk.xcframework.zip",
-            checksum: "191a7e376d6bc33b9ae865fbb6fd06b2cbafc2f3ed5e132dc657f8582770ba23"
+            url: "https://github.com/MConnect-Africa/NfcVerification-ios-spm/releases/download/v1.0.2/NfcSdk.xcframework.zip",
+            checksum: "d4e40c310884c62d0f9666a92e3a094fe58594c937d95024a64329e7201a1ff9"
         )
     ]
 )
