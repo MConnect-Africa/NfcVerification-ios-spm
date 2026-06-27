@@ -22,7 +22,7 @@ Select the latest package
 ### 1. Configuration
 Drag the `isocel_config.json` file into your projects file inspector and ensure that the file is added to your app's target. Confirm that it is by checking the Copy Bundle Resources drop down in the Build Phases tab as shown below.
 
-<img width="1249" height="652" alt="Screenshot 2026-06-23 at 17 02 34" src="https://github.com/user-attachments/assets/106c9c6a-8d5a-448f-9bf3-675ec21015c7" />
+<img width="1249" height="652" alt="Screenshot 2026-06-23 at 17 02 34" src="https://i.postimg.cc/c1khrRLs/Screenshot-2026-06-23-at-17-02-34.png" />
 
 ### 2. Add NFC Entitlement
 Add to your Info.plist:
