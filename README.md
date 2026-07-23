@@ -8,7 +8,7 @@ Add the following to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/MConnect-Africa/NfcVerification-ios-spm.git", branch: "feat/nfc")
+    .package(url: "https://github.com/MConnect-Africa/NfcVerification-ios-spm.git", branch: "main")
 ]
 ```
 Or via Xcode:
@@ -16,7 +16,7 @@ Or via Xcode:
 File → Add Packages
 Enter package URL → https://github.com/MConnect-Africa/NfcVerification-ios-spm
 
-Select the latest package
+For the dependency rule select Branch and choose the ```main``` branch
 
 ## Setup
 ### 1. Configuration
