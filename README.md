@@ -8,7 +8,7 @@ Add the following to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/MConnect-Africa/NfcVerification-ios-spm.git", branch: "feat/nfc")
+    .package(url: "https://github.com/MConnect-Africa/NfcVerification-ios-spm.git", branch: "main")
 ]
 ```
 Or via Xcode:
