@@ -16,7 +16,7 @@ Or via Xcode:
 File → Add Packages
 Enter package URL → https://github.com/MConnect-Africa/NfcVerification-ios-spm
 
-Select the latest package
+For the dependency rule select Branch and choose the ```main``` branch
 
 ## Setup
 ### 1. Configuration
